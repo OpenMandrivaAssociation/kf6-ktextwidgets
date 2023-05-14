@@ -26,6 +26,7 @@ BuildRequires: doxygen
 BuildRequires: cmake(Qt6ToolsTools)
 BuildRequires: cmake(Qt6)
 BuildRequires: cmake(Qt6QuickTest)
+BuildRequires: cmake(Qt6TextToSpeech)
 BuildRequires: cmake(KF6Completion)
 BuildRequires: cmake(KF6ConfigWidgets)
 BuildRequires: cmake(KF6Sonnet)
