@@ -30,6 +30,8 @@ BuildRequires: cmake(Qt6TextToSpeech)
 BuildRequires: cmake(KF6Completion)
 BuildRequires: cmake(KF6ConfigWidgets)
 BuildRequires: cmake(KF6Sonnet)
+# Just to make sure we don't pull in the KF5 version
+BuildRequires: plasma6-xdg-desktop-portal-kde
 Requires: %{libname} = %{EVRD}
 
 %description
