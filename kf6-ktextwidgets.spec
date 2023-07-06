@@ -1,6 +1,6 @@
 %define libname %mklibname KF6TextWidgets
 %define devname %mklibname KF6TextWidgets -d
-%define git 20230627
+%define git 20230706
 
 Name: kf6-ktextwidgets
 Version: 5.240.0
