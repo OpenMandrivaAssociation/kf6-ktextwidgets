@@ -1,6 +1,6 @@
 %define libname %mklibname KF6TextWidgets
 %define devname %mklibname KF6TextWidgets -d
-%define git 20230927
+%define git 20231005
 
 Name: kf6-ktextwidgets
 Version: 5.240.0
@@ -85,7 +85,6 @@ Text editing widgets
 %files -n %{devname}
 %{_includedir}/KF6/KTextWidgets
 %{_libdir}/cmake/KF6TextWidgets
-%{_qtdir}/mkspecs/modules/qt_KTextWidgets.pri
 %{_qtdir}/doc/KF6TextWidgets.*
 
 %files -n %{libname}
