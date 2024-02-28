@@ -2,10 +2,10 @@
 
 %define libname %mklibname KF6TextWidgets
 %define devname %mklibname KF6TextWidgets -d
-%define git 20240217
+#define git 20240217
 
 Name: kf6-ktextwidgets
-Version: 5.250.0
+Version: 6.0.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/ktextwidgets/-/archive/master/ktextwidgets-master.tar.bz2#/ktextwidgets-%{git}.tar.bz2
